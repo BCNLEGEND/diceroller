@@ -35,7 +35,7 @@ class RollDice extends Component {
       <div className="rolldice">
         <Die shake={this.state.shake} num={dieFaces[this.state.dice1]} />
         <Die shake={this.state.shake} num={dieFaces[this.state.dice2]} />
-        <button className="button" onClick={this.handleClick}>
+        <button className="button" onClick={this.handleClick} disabled={this.state.rolling}>
           {!this.state.rolling ? "Roll Dice!!!" : "Rolling..."}
         </button>
       </div>

@@ -5,7 +5,7 @@
 
 .die {
   display: flex;
-  color: purple;
+  color: slateblue;
   font-size: 10em;
   margin: 50px;
 }
@@ -23,7 +23,7 @@
 }
 
 .button:hover {
-  background-color: purple;
+  background-color: darkslateblue;
   cursor: pointer;
 }
 
